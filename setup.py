@@ -43,11 +43,11 @@ setup(
     packages=find_packages(exclude=["tests*"]),
     install_requires=[
         "Django>=2.2.0",
-        "django-graphql-jwt==0.3.0",
+        "django-graphql-jwt==0.3.2",
         "django-filter>=2.2.0",
-        "graphene_django>=2.1.8",
-        "graphene>=2.1.8",
-        "PyJWT<2.0.0",
+        "graphene_django>=3.0.0b1",
+        "graphene>=3.0b7",
+        "PyJWT>=2.1.0",
     ],
     tests_require=tests_require,
     classifiers=[

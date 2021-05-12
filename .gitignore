@@ -21,6 +21,7 @@ __pycache__
 /.pytest_cache
 /.tox
 
+.idea
 /build
 /coverage.xml
 /dist
@@ -28,4 +29,5 @@ __pycache__
 /site
 
 .venv/
+venv
 .python-version
